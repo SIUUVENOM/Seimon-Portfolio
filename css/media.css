@@ -1,0 +1,1368 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav-menu{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.navbar label{
+display: block !important;
+}
+
+.navbar ul{
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: #000;
+flex-direction: column;
+max-height: 0;
+overflow: hidden;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+}
+
+.navbar #menu:checked ~ .nav-menu{
+max-height: 1000px;
+overflow: visible;
+padding: 20px;
+}
+
+.nav-menu a::after{
+    width: 30px;
+}
+
+.nav-menu .active::after{
+    width: 30px;
+}
+
+.nav-menu li{
+    margin: 5px 0;
+    padding: 5px 0;
+}
+  
+  
+  .home-contaner {
+    width: 50%;
+  }
+  .about-contaner .about-text {
+    width: 100%;
+  }
+  .about-contaner .about-list {
+    width: 100%;
+  }
+  .about-caption {
+    display: block;
+  }
+  .about-header h2 {
+    font-size: 70px;
+  }
+  .about-header p {
+    font-size: 20px;
+  }
+  .about-header::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  .serv-head p {
+    font-size: 20px;
+  }
+
+  .serv-head h2 {
+    font-size: 70px;
+  }
+
+  .serv-head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  .serv-head::after {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  .srv {
+    width: 100%;
+  }
+
+  .skills ul li {
+    position: relative;
+    width: 50%;
+    border-left: none;
+  }
+
+  .skills ul li span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .bord-left {
+    border-right: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+
+  .bord-bottom {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+  .skills ul {
+    width: 70%;
+    margin: auto;
+  }
+
+  .res-head h2 {
+    font-size: 70px;
+  }
+
+  .res-head p {
+    font-size: 20px;
+  }
+
+  .res-head::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  .resume-contaner {
+    width: 70%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 100%;
+  }
+
+  .skills .skill {
+    width: 100%;
+  }
+
+  .Portfolio {
+    height: 4200px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-contaner .port-head {
+    width: 80%;
+    margin: auto;
+  }
+
+  .port-head h2 {
+    font-size: 70px;
+  }
+
+  .port-head p {
+    font-size: 20px;
+  }
+
+  .images .img {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 360px;
+    left: 0;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 1250px;
+    left: 0;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 1610px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 2410px;
+    left: 0;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 2945px;
+    left: 0;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 3305px;
+    left: 0;
+  }
+
+  /* clients */
+
+  .client-opinion .client {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .client .cli-head {
+    width: 220px;
+  }
+
+  .client-head h2 {
+    font-size: 70px;
+  }
+
+  .client-head p {
+    font-size: 20px;
+  }
+
+  .client-head::after {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  /* contact */
+
+  .con-head h2 {
+    font-size: 70px;
+  }
+
+  .con-head p {
+    font-size: 20px;
+  }
+
+  .con-head::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  .fed-input .row {
+    width: 100%;
+  }
+
+  .row2 {
+    width: 100%;
+  }
+
+  .con-contaner .address {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .con-contaner .feedback {
+    width: 100%;
+  }
+
+  /* footer */
+
+  .foot-contaner .copyright {
+    width: 100%;
+  }
+
+  .foot-contaner .policys {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .serv-head p {
+    font-size: 30px;
+  }
+
+  .serv-head h2 {
+    font-size: 70px;
+  }
+
+  .serv-head::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  .srv {
+    width: 100%;
+  }
+
+  .res-head h2 {
+    font-size: 80px;
+  }
+
+  .res-head::after {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 100%;
+  }
+
+  .skills .skill {
+    width: 100%;
+  }
+
+  .Portfolio {
+    height: 4000px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-contaner .port-head {
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+
+  .port-head h2 {
+    font-size: 70px;
+  }
+
+  .port-head p {
+    font-size: 20px;
+  }
+
+  .filter {
+    margin: 0 auto 50px 100px;
+  }
+  .images .img {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 330px;
+    left: 0;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 1140px;
+    left: 0;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 1470px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 2200px;
+    left: 0;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 2690px;
+    left: 0;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 3020px;
+    left: 0;
+  }
+  /* clients */
+
+  .client-opinion .client {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .client .cli-head {
+    width: 220px;
+  }
+
+  .client-head h2 {
+    font-size: 60px;
+  }
+
+  .client-head p {
+    font-size: 30px;
+  }
+
+  .client-head::after {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  /* footer */
+
+  .foot-contaner .copyright {
+    width: 100%;
+  }
+
+  .foot-contaner .policys {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .home-caption p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+
+  .about-header p {
+    font-size: 20px;
+  }
+
+  .about-header h2 {
+    font-size: 50px;
+  }
+
+  .serv-head p {
+    font-size: 20px;
+  }
+
+  .serv-head h2 {
+    font-size: 50px;
+  }
+
+  .serv-head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  .srv {
+    width: 100%;
+  }
+
+  .res-head h2 {
+    font-size: 50px;
+  }
+
+  .res-head p {
+    font-size: 20px;
+  }
+
+  .res-head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  .resume-contaner {
+    width: 70%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 100%;
+  }
+
+  .skills .skill {
+    width: 100%;
+  }
+
+  .Portfolio {
+    height: 3500px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-head::after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 35%;
+  }
+
+  .filter {
+    margin: 0 auto 30px;
+  }
+
+  .port-contaner .port-head {
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+
+  .port-head h2 {
+    font-size: 40px;
+  }
+
+  .port-head p {
+    font-size: 20px;
+  }
+
+  .images .img {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 280px;
+    left: 0;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 970px;
+    left: 0;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 1250px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 1870px;
+    left: 0;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 2290px;
+    left: 0;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 2570px;
+    left: 0;
+  }
+  /* clients */
+
+  .client-opinion .client {
+    min-width: 270px;
+    margin-bottom: 50px;
+  }
+
+  .client .cli-head {
+    width: 220px;
+  }
+
+  .client-head h2 {
+    font-size: 40px;
+  }
+
+  .client-head p {
+    font-size: 20px;
+  }
+
+  .client-head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  /* contact */
+
+  .con-head h2 {
+    font-size: 40px;
+  }
+
+  .con-head p {
+    font-size: 20px;
+  }
+
+  .con-head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+  }
+
+  /* footer */
+
+  .foot-contaner .copyright {
+    width: 100%;
+  }
+
+  .foot-contaner .policys {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+  .home-contaner {
+    width: 50%;
+  }
+  .about-contaner .about-text {
+    width: 100%;
+  }
+  .about-contaner .about-list {
+    width: 100%;
+  }
+  .about-caption {
+    display: block;
+  }
+  .about-header h2 {
+    font-size: 100px;
+  }
+  .about-header p {
+    font-size: 40px;
+  }
+
+  .about .bord-none {
+    border-left: none;
+  }
+
+  .skills ul li {
+    position: relative;
+    width: 50%;
+    border-left: none;
+  }
+
+  .bord-left {
+    border-right: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+
+  .bord-bottom {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+
+  .skills ul {
+    width: 70%;
+    margin: auto;
+  }
+  .serv-head h2 {
+    font-size: 80px;
+  }
+
+  .serv-head p {
+    font-size: 30px;
+  }
+
+  .serv-head::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 42%;
+  }
+
+  .srv {
+    width: 100%;
+  }
+
+  .resume-contaner {
+    width: 70%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 100%;
+  }
+
+  .res-head h2 {
+    font-size: 100px;
+  }
+
+  .res-head p {
+    font-size: 30px;
+  }
+
+  .skills .skill {
+    width: 100%;
+  }
+
+  .Portfolio {
+    height: 1600px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-contaner .port-head {
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+
+  .port-head h2 {
+    font-size: 80px;
+  }
+
+  .port-head p {
+    font-size: 30px;
+  }
+
+  .images .img {
+    width: 40%;
+    min-width: 250px;
+  }
+  .img img {
+    width: 100%;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 400px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 670px;
+    left: 50%;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 470px;
+    left: 50%;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 820px;
+    left: 0;
+  }
+  /* clients */
+
+  .client-opinion .client {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .client .cli-head {
+    width: 220px;
+  }
+
+  .client-head h2 {
+    font-size: 80px;
+  }
+
+  .client-head p {
+    font-size: 30px;
+  }
+
+  .client-head::after {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+
+  /* contact */
+
+  .con-head h2 {
+    font-size: 80px;
+  }
+
+  .con-head p {
+    font-size: 30px;
+  }
+
+  .fed-input .row {
+    width: 100%;
+  }
+
+  .row2 {
+    width: 100%;
+  }
+
+  .con-contaner .address {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .con-contaner .feedback {
+    width: 100%;
+    text-align: center;
+  }
+
+  .address .address-follow ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* footer */
+
+  .foot-contaner .copyright {
+    width: 100%;
+  }
+
+  .foot-contaner .policys {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar label{
+    display: none;
+}
+  
+  .home-contaner {
+    width: 70%;
+  }
+  .about-contaner .about-text {
+    width: 100%;
+  }
+  .about-contaner .about-list {
+    width: 100%;
+  }
+  .about-caption {
+    display: block;
+  }
+  .about-header h2 {
+    font-size: 150px;
+  }
+  .about-header p {
+    font-size: 40px;
+  }
+  .about .bord-none {
+    border-left: none;
+  }
+  .skills ul li {
+    position: relative;
+    width: 25%;
+    border-left: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+  .skills ul {
+    width: 70%;
+    margin: auto;
+  }
+  .bord-bottom {
+    border-bottom: none;
+  }
+
+  .resume-contaner {
+    width: 90%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 45%;
+  }
+
+  .skills .skill {
+    width: 45%;
+  }
+
+  .serv-head h2 {
+    font-size: 120px;
+  }
+
+  .srv {
+    width: 50%;
+  }
+
+  .Portfolio {
+    height: 1950px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-head h2 {
+    font-size: 120px;
+  }
+
+  .images .img {
+    width: 40%;
+    min-width: 300px;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 240px;
+    left: 0;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 480px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 830px;
+    left: 50%;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 590px;
+    left: 50%;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 1015px;
+    left: 0;
+  }
+
+  /* clients */
+
+  .client-opinion .client {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .client .cli-head {
+    width: 220px;
+  }
+
+  .client-head h2 {
+    font-size: 100px;
+  }
+
+  .client-head p {
+    font-size: 40px;
+  }
+
+  .client-head::after {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+  }
+
+  /* contct */
+
+  .fed-input .row {
+    width: 100%;
+  }
+
+  .row2 {
+    width: 100%;
+  }
+
+  .con-contaner .address {
+    width: 30%;
+    padding: 10px;
+    order: 1;
+  }
+
+  .con-contaner .feedback {
+    width: 60%;
+    order: 2;
+  }
+
+  /* footer */
+
+  .foot-contaner .copyright {
+    width: 100%;
+  }
+
+  .foot-contaner .policys {
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar label{
+    display: none;
+}
+  
+  .about-contaner .about-text {
+    width: 65%;
+  }
+  .about-contaner .about-list {
+    width: 25%;
+  }
+  .about-caption {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-header h2 {
+    font-size: 150px;
+  }
+  .about-header p {
+    font-size: 40px;
+  }
+  .skills ul li {
+    position: relative;
+    width: 25%;
+    border-left: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+  .skills ul {
+    width: 100%;
+  }
+  .bord-bottom {
+    border-bottom: none;
+  }
+
+  .resume-contaner {
+    width: 90%;
+  }
+
+  .serv-head h2 {
+    font-size: 120px;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 45%;
+  }
+
+  .skills .skill {
+    width: 45%;
+  }
+
+  .srv {
+    width: 50%;
+  }
+
+  .Portfolio {
+    height: 1300px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+  }
+
+  .port-head h2 {
+    font-size: 120px;
+  }
+
+  .images .img {
+    width: 30%;
+    min-width: 300px;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 310px;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 0;
+    left: 620px;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 210px;
+    left: 0;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 420px;
+    left: 620px;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 210px;
+    left: 620px;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 515px;
+    left: 310px;
+  }
+
+  /* clients */
+
+  .client-opinion .client {
+    width: 45%;
+  }
+
+  .client-head h2 {
+    font-size: 120px;
+  }
+
+  .client-head p {
+    font-size: 40px;
+  }
+
+  .client .cli-head {
+    width: 70%;
+  }
+
+  /* contact */
+
+  .fed-input .row {
+    width: 100%;
+  }
+
+  .con-contaner .address {
+    width: 30%;
+    padding: 10px;
+    order: 1;
+  }
+
+  .con-contaner .feedback {
+    width: 60%;
+    order: 2;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbar label{
+    display: none;
+}
+  .about-contaner .about-text {
+    width: 65%;
+  }
+
+  .about-contaner .about-list {
+    width: 25%;
+  }
+
+  .about-caption {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-header h2 {
+    font-size: 150px;
+  }
+
+  .about-header p {
+    font-size: 40px;
+  }
+
+  .about-header::after {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+  }
+
+  .skills ul li {
+    position: relative;
+    width: 25%;
+    border-left: 1px dotted rgba(0, 0, 0, 0.2);
+  }
+  .skills ul {
+    width: 100%;
+  }
+  .bord-bottom {
+    border-bottom: none;
+  }
+  /* resume */
+
+  .resume-contaner {
+    width: 90%;
+  }
+
+  .resume-contaner .education,
+  .resume-contaner .experience {
+    width: 45%;
+  }
+
+  .skills .skill {
+    width: 45%;
+  }
+
+  /* services */
+  .serv-head h2 {
+    font-size: 120px;
+  }
+
+  .serv-head::after {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+  }
+
+  .res-head::after {
+    position: absolute;
+    top: 60%;
+    left: 46%;
+  }
+
+  .srv {
+    width: 50%;
+  }
+
+  /* poroflio */
+
+  .Portfolio {
+    height: 1500px;
+  }
+
+  .Portfolio .port-contaner {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .port-head h2 {
+    font-size: 120px;
+  }
+
+  .images .img {
+    width: 30%;
+    min-width: 300px;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 420px;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 0;
+    left: 820px;
+  }
+
+  .img4 {
+    position: absolute;
+    top: 260px;
+    left: 20px;
+  }
+
+  .img5 {
+    position: absolute;
+    top: 520px;
+    left: 820px;
+  }
+
+  .img6 {
+    position: absolute;
+    top: 260px;
+    left: 820px;
+  }
+
+  .img7 {
+    position: absolute;
+    top: 620px;
+    left: 420px;
+  }
+
+  /* clients */
+
+  .client-opinion .client {
+    width: 45%;
+  }
+
+  .client-head h2 {
+    font-size: 120px;
+  }
+
+  .client-head p {
+    font-size: 40px;
+  }
+
+  .client .cli-head {
+    width: 50%;
+  }
+  /* contact */
+
+  .fed-input .row {
+    width: 49%;
+  }
+  .con-contaner .address {
+    width: 30%;
+    padding: 10px;
+    order: 1;
+  }
+
+  .con-contaner .feedback {
+    width: 60%;
+    order: 2;
+  }
+}
